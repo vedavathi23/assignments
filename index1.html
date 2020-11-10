@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Web Page</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div class="container">
+            <h1>Registration Form</h1>
+        <hr> <br>
+        <fieldset>
+            <label for="firstname"><strong> Firstname :</strong> </label>         
+                <input type="text" placeholder="Enter your first name" name="firstname" size="25"/> <br> <br>    
+            <label for="lastname"> <strong>Lastname: </strong> </label>         
+                <input type="text" placeholder="Enter your last name" name="lastname" size="25"/> <br> <br>
+            <label for="email"> <strong>Email :</strong> </label>
+                <input type="email" placeholder="Enter your email address" name="email" size="25" /><br> <br>
+            <label for="dob"><strong>DOB :</strong> </label>    
+                <input type="date" name="dob" placeholder="dd/mm/yyyy"/> <br> <br>
+            <label for="phonenumber"><strong>Phone :</strong> </label>
+                <input type="tel" placeholder="Phone 1" name="phonenumber" maxlength="10" size="25"/> <br> <br>
+                <input type="tel" placeholder="Phone 2" name="phonenumber" maxlength="10" size="25"/> <br> <br> 
+                <input type="tel" placeholder="Phone 3" name="phonenumber" maxlength="10" size="25"/> <br> <br>
+            <strong>Address :</strong>
+                <textarea name="address" placeholder="Your full address" cols="40" rows="5"></textarea><br>  <br>
+            <label for="country"><strong>Country :</strong></label>
+                <select name="country">
+                <option value="india">India</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+                <option value="unitedstates">United States</option>
+                </select> <br> <br>
+            <label for="states"><strong>State :</strong></label>
+                <select name="states">
+                <option value="andhrapradesh">Andhra Pradesh</option>
+                <option value="telangana">Telangana</option>
+                <option value="karnataka">Karnataka</option>
+                <option value="tamilnadu">Tamilnadu</option>
+                </select> <br> <br>
+            <label for="zipcode"><strong>Zip : </strong></label>
+                <input type="number" placeholder="Your zip" name="zipcode" /> <br> <br> <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Save</button>
+        </fieldset>
+        </div>
+    </form>
+</body>
+</html>
